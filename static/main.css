@@ -172,8 +172,10 @@ td {
   padding: 16px;
   z-index: 1;
 }
-td,
-li:hover {
+li {
+  color: black;
+}
+.special-column:hover {
   color: red;
 }
 

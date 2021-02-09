@@ -173,7 +173,8 @@ td {
   z-index: 1;
 }
 
-.td:hover {
+.td,
+li:hover {
   color: red;
 }
 

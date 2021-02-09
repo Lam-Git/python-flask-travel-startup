@@ -175,7 +175,7 @@ td {
 li {
   color: black;
 }
-.special-column:hover {
+.td:hover {
   color: red;
 }
 

@@ -1,0 +1,235 @@
+* {
+  font-family: "Oxygen", sans-serif;
+}
+.header-home {
+  position: fixed;
+  width: auto;
+  height: auto;
+  opacity: 0.7;
+}
+.bg-video {
+  widows: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.home-container {
+  color: white;
+  top: 40%;
+  left: 40%;
+  transform: translate(-50%, -50%);
+  position: absolute;
+  padding: 10px;
+  font-size: 25px;
+}
+/*Start the list of the destination*/
+.destination-list {
+  background-color: mintcream;
+}
+.destination-list > ul {
+  font-size: 19px;
+  width: 33.1%;
+  height: 33.1%;
+  margin: 30px;
+  padding: 0;
+  display: inline-block;
+  background-color: whitesmoke;
+}
+li {
+  display: inline;
+}
+/* The images on the location starts*/
+div.gallery:hover {
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  width: 500px;
+  padding: 1px;
+  transition-duration: 0.5s;
+  cursor: pointer;
+}
+/* End images on the location starts*/
+
+/* End list of the destination*/
+
+/*Start Reservation*/
+
+/* Add padding to containers */
+.container {
+  margin: auto;
+  padding: 30px;
+  box-shadow: 0 8px 16px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  color: Black;
+  opacity: 0.9;
+} /*the 3d pop up of for the background*/
+
+/* Full-width input fields */
+input[type="text"] {
+  width: 100%;
+  padding: 15x;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type="text"]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Overwrite default styles of hr */
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+/* Set a style for the submit/register button */
+.registerbtn {
+  background-color: darkred;
+  color: white;
+  padding: 15px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 10%;
+  opacity: 0.9;
+  border-radius: 10px;
+}
+
+.registerbtn:hover {
+  opacity: 1;
+  background-color: red;
+}
+
+/* Add a blue text color to links */
+a {
+  color: dodgerblue;
+}
+a:hover {
+  color: red;
+}
+/* Set a grey background color and center the text of the "sign in" section */
+.signin {
+  background-color: #f1f1f1;
+  text-align: center;
+}
+
+/*stroll*/
+/* Style inputs */
+input[type="text"],
+select {
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  display: inline-block;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  box-sizing: border-box;
+  cursor: pointer;
+}
+
+.gallery-img {
+  background-position: center;
+  background-size: auto;
+  position: absolute;
+}
+/*End Reservation*/
+
+/*Start Special*/
+.special-table {
+  box-sizing: border-box;
+  color: black;
+}
+.special-head {
+  background-color: seashell;
+  font-size: 19px;
+  text-align: center;
+  padding: 20px;
+}
+.special-row {
+  display: flex;
+  margin-left: -5px;
+  margin-right: -5px;
+  z-index: 1;
+}
+.special-column {
+  float: left;
+  flex: 50%;
+  padding: 5px;
+  z-index: 1;
+}
+
+table/*:hover */ {
+  border-collapse: collapse;
+  border-spacing: 0;
+  width: 100%;
+  border: 1px solid black;
+  cursor: pointer;
+}
+
+th,
+td {
+  text-align: center;
+  padding: 16px;
+  z-index: 1;
+}
+td,
+li:hover {
+  color: red;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+/*Start Special Video*/
+.special-video {
+  position: absolute;
+  width: auto;
+  height: auto;
+  opacity: 0.5;
+}
+/*End Special Video*/
+
+/*End Special*/
+/*Starter Footer*/
+.icon-footer {
+  position: relative;
+  min-height: 100vh;
+}
+.footer {
+  position: absolute;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background-color: lightsteelblue;
+  color: black;
+  text-align: center;
+}
+.footer-table {
+  box-sizing: border-box;
+  color: black;
+  border: 4rem;
+}
+.footer-row {
+  display: flex;
+  margin-left: -5px;
+  margin-right: -5px;
+  z-index: 1;
+}
+.footer-column {
+  float: left;
+  flex: 50%;
+  padding: 5px;
+  z-index: 1;
+}
+
+th,
+td {
+  text-align: center;
+  padding: 16px;
+  z-index: 1;
+}
+
+tr:nth-child(even) {
+  background-color: #f2f2f2;
+}
+/*End Footer*/

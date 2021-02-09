@@ -1,0 +1,97 @@
+{%extends "layout.html"%}
+
+{%block title%} <title>Specials</title>{%endblock%}
+
+{%block main%}
+    <br>
+<div class= "special-head">
+    <h2 >Special Offers</h2>
+    <p>"Man cannot discover new oceans unless he has the courage to lose sight of the shore.Adventure may hurt you, but monotony will kill you.”</p>
+
+</div>
+<section class="special-video">
+<video class ="bg-video" autoplay muted loop>
+    <source src = "{{url_for("static", filename="images/Beach.mp4")}}" type="video/mp4">
+</video>
+</section>
+<section class="special-table">
+<div class="special-row">
+  <div class="special-column">
+    <table>
+      <tr>
+        <th>Flights</th>
+      </tr>
+      <tr>
+        <td>Book a Flight</td>
+      </tr>
+      <tr>
+        <td>Manage Reservations</td>
+      </tr>
+      <tr>
+        <td>Route Map</td>
+      </tr>
+      <tr>
+        <td>Flight Schedules</td>
+      </tr>
+      <tr>
+        <td>International Travel</td>
+      </tr>
+      <tr>
+        <td>Flight Offers</td>
+      </tr>
+    </table>
+  </div>
+  <div class="special-column">
+    <table>
+      <tr>
+        <th>Hotel/Car</th>
+      </tr>
+      <tr>
+        <td>Book a Hotel</td>
+      </tr>
+      <tr>
+        <td>Book a Car</td>
+      </tr>
+      <tr>
+        <td>Manage Reservation</td>
+      </tr>
+      <tr>
+        <td>Offers Hotel/Car</td>
+      </tr>
+      <tr>
+        <td>Best Rates</td>
+      </tr>
+      <tr>
+        <td>Reward Points</td>
+      </tr>
+    </table>
+  </div>
+  <div class="special-column">
+    <table>
+      <tr>
+        <th>Vacations</th>
+      </tr>
+      <tr>
+        <td>Book a Vacation Package</td>
+      </tr>
+      <tr>
+        <td>Manage a Vacation Package</td>
+      </tr>
+      <tr>
+        <td>Vacation Package Offers</td>
+      </tr>
+      <tr>
+        <td>Vacation Destinations</td>
+      </tr>
+      <tr>
+        <td>Tours</td>
+      </tr>
+      <tr>
+        <td>Upgrade My Vacation</td>
+      </tr>
+    </table>
+  </div>
+</div>
+</section>
+
+{%endblock%}

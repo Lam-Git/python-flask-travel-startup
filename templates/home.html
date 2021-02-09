@@ -1,0 +1,19 @@
+{%extends "layout.html"%}
+
+{%block title%} <title>Traveling</title>{%endblock%}
+
+{%block main%} 
+<section class="header-home">
+    <video class ="bg-video" autoplay muted loop>
+        <source src = "{{url_for("static", filename="images/Misty.mp4")}}" type="video/mp4">
+    </video>
+</section>
+    <div class="home-container">
+    <div class="text-home">
+        <h2>Lets Start</h2>
+        <h3>Exploring The World</h3>
+        <br>
+        <p>" We travel not to escape life, but for life not to escape us. The best view comes after the hardest climb. Only those who risk going too far can possibly find out how far one can go. Eventually, travel makes one modest. You see what a tiny place you occupy in the world.”– Gustav Flaubert </p>
+    </div>
+    </div>
+{%endblock%}

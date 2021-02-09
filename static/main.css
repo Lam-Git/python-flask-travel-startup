@@ -175,8 +175,7 @@ td {
   color: black;
 }
 
-td,
-li:hover {
+td > li:hover {
   color: red;
 }
 

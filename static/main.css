@@ -37,6 +37,7 @@
 }
 li {
   display: inline;
+  color: black;
 }
 /* The images on the location starts*/
 div.gallery:hover {
@@ -171,6 +172,7 @@ td {
   text-align: center;
   padding: 16px;
   z-index: 1;
+  color: black;
 }
 
 .td,

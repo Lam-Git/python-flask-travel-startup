@@ -172,9 +172,7 @@ td {
   padding: 16px;
   z-index: 1;
 }
-li {
-  color: black;
-}
+
 .td:hover {
   color: red;
 }
